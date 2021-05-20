@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="ElectronCgi.DotNet" Version="*" />
+    <PackageReference Include="Network" Version="6.2.4.21" />
+    <PackageReference Include="Network.Bluetooth" Version="4.0.1803.22" />
+  </ItemGroup>
+</Project>
